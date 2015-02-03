@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+.container
+{
+    position: relative;
+    top: 120px;
+    width: 100%;
+    overflow: auto;
+    background-color: gray;
+}
+
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.linkMenuBar {
+    float: left;
+}
+
+.menuItem:link, .menuItem:visited
+{
+    display : block;
+
+    background-color: gray;
+    color: ghostwhite;
+    font-size: 18;
+    text-decoration: none;
+    text-align: center;
+    text-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menuItem:hover, .menuItem:active{
+    background-color: darkgrey;
+}
+
+.goldBarHead{
+    width: 100%;
+    background-color: gold;
+    height: 7px;
+}
