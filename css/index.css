@@ -1,0 +1,18 @@
+.img-with-text
+{
+    float: left;
+    margin-right: 5em;
+    text-align: center;
+}
+
+.img-with-text img{
+    height: 148px;
+    width: 148px;
+}
+.gluten-img-with-text-container
+{
+    padding-left: 20%;
+    align-content: center;/*text-align: justify;*/
+    text-align: center;
+    width: 100%;
+}
