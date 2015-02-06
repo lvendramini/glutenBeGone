@@ -16,3 +16,12 @@
     text-align: center;
     width: 100%;
 }
+
+.main-content{
+    background-color: beige ;
+    /*display:block;*/
+    /*overflow:auto;*/
+    /*position: absolute;*/
+    /*height: 100%;*/
+
+}
