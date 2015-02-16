@@ -12,20 +12,18 @@
 .gluten-img-with-text-container
 {
     padding-left: 20%;
-    align-content: center;/*text-align: justify;*/
+    align-content: center;
     text-align: center;
     width: 100%;
 }
 
-
 .main-content{
     background-color: beige ;
-    /*display:block;*/
-    /*overflow:auto;*/
-    /*position: absolute;*/
-    /*height: 100%;*/
     padding-top: 50px;
     padding-bottom: 50px;
+    top: 500px; !important;
+
+    clear: both;
 
 }
 
@@ -35,6 +33,6 @@
 {
     position: inherit;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: deeppink;
 }
