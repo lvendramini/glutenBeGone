@@ -17,11 +17,24 @@
     width: 100%;
 }
 
+
 .main-content{
     background-color: beige ;
     /*display:block;*/
     /*overflow:auto;*/
     /*position: absolute;*/
     /*height: 100%;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+
+.clear { clear:both;}
+
+.maincontentabout
+{
+    position: inherit;
+    width: 100%;
+    overflow: auto;
+    background-color: deeppink;
 }
