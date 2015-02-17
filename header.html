@@ -5,19 +5,18 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="./css/header.css">
     <style type="text/css">
-        .imgIcon { position:absolute; top: 0px; left: 0px; z-index: 3; height: 128px; width: 228px }
+        .imgIcon { position:relative; top: 0px; left: 0px; z-index: 3; height: 128px; width: 228px }
         .imgBackground { position:absolute; top: 0px; left: 0px; z-index: 1; width: 100%; height: 120px }
     </style>
 
 </head>
 <body>
 
-<div >
-    <img src="./img/background.png" class="imgBackground"/>
-    <img src="./img/logo.png" alt="Oh Crumb! icon" class="imgIcon">
-</div>
-
     <div class="container">
+        <div style="clear: both; overflow: auto">
+            <img src="./img/background.png" class="imgBackground"/>
+            <img src="./img/logo.png" alt="Oh Crumb! icon" class="imgIcon">
+        </div>
         <div class="goldBarHead"></div>
 
         <ul class="menuBar" id="menuBar">

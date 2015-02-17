@@ -3,8 +3,28 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Menu</title>
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+
 </head>
 <body>
-Menu
+    <div id="header" class="menu-header">
+        some stuff
+    </div>
+    <div class="menu-content">
+        some content
+    </div>
+    <div class="menu-footer">
+        some footer
+    </div>
 </body>
 </html>

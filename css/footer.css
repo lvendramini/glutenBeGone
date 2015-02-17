@@ -38,7 +38,7 @@
 
 .containerFooter
 {
-    position: inherit;
+    position: absolute;
     width: 100%;
     overflow: auto;
     background-color: gray;

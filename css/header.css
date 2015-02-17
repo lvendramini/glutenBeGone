@@ -1,15 +1,8 @@
-body{
-    width: 100%;
-    margin: auto;
-}
-
 .container
 {
-    position: relative;
-    top: 120px;
-    width: 100%;
     overflow: auto;
     background-color: gray;
+    clear: both;
 }
 
 .menuBar {

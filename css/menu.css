@@ -1,0 +1,18 @@
+
+.menu-header {
+    background-color: deepskyblue;
+    clear: both;
+    position: relative;
+    /*overflow: auto*/
+
+}
+
+.menu-content {
+    background-color: deeppink;
+
+}
+
+.menu-footer{
+    background-color: mediumpurple;
+
+}
