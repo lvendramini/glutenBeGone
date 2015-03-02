@@ -12,18 +12,35 @@
         });
     </script>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <!--<link href="css/form.css" rel="stylesheet">-->
+    <link href="css/elements.css" rel="stylesheet">
 </head>
 <body>
 
 <div id="header"></div>
 
 <div id="main" class="main-content">
-
-    <h1 style="text-align: center" >Contact</h1>
-    <div style="width: 80%; padding-left: 10%">
-
+    <div class="container-contact">
+        <!-- Feedback Form Starts Here -->
+        <div id="feedback">
+            <!-- Heading Of The Form -->
+            <div class="head">
+                <h3>Contact</h3>
+           </div>
+            <!-- Feedback Form -->
+            <form action="#" id="form" method="post" name="form">
+                <input name="vname" placeholder="Your Name" type="text" value="">
+                <input name="vemail" placeholder="Your Email" type="text" value="">
+                <input name="sub" placeholder="Subject" type="text" value="">
+                <label>Enquiry</label>
+                <textarea name="msg" placeholder="Type your enquiry here..."></textarea>
+                <input id="send" name="submit" type="submit" value="Send Your Enquiry">
+            </form>
+            <h3><?php include "secure_email_code.php"?></h3>
+        </div>
+        <!-- Feedback Form Ends Here -->
     </div>
-</div>
+    </div>
 
 <div id="footer"></div>
 </body>

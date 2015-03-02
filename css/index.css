@@ -40,3 +40,13 @@
     overflow: hidden;
     background-color: deeppink;
 }
+.testimonial-author
+{
+    font-style: italic;
+}
+
+.testimonial-header
+{
+    text-align: center;
+    color: red;
+}

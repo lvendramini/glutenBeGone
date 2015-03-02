@@ -11,20 +11,32 @@
             $("#footer").load("footer.html");
         });
     </script>
+    <script src="jquery.min.js"></script>
+    <script src="jssor.slider.mini.js"></script>
+
     <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-
+<script type="text/javascript" src="../js/jssor.core.js>"></script>
+<script type="text/javascript" src="../js/jssor.util.js>"></script>
+<script type="text/javascript" src="../js/jssor.slider.js>"></script>
 <div id="header"></div>
 
 <div id="main" class="main-content">
 
     <h1 style="text-align: center" >Gallery</h1>
     <div style="width: 80%; padding-left: 10%">
-
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+                <div><img u="image" src="./img/292X292-BROWNIES.jpg" /></div>
+                <div><img u="image" src="./img/3x3-apple-pie.jpg" /></div>
+            </div>
+        </div>
     </div>
 </div>
 
 <div id="footer"></div>
 </body>
+<script src="imageGallarySlider.js"></script>
 </html>
