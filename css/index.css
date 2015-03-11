@@ -11,7 +11,8 @@
 }
 .gluten-img-with-text-container
 {
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-top: 20px;
     align-content: center;
     text-align: center;
     width: 100%;
@@ -51,4 +52,9 @@
 {
     text-align: center;
     color: red;
+}
+
+.header {
+    clear: both;
+    position: relative;
 }

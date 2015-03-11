@@ -1,18 +1,4 @@
-
-.menu-header {
-    background-color: deepskyblue;
-    clear: both;
-    position: relative;
-    /*overflow: auto*/
-
-}
-
 .menu-content {
     background-color: beige;
-
-}
-
-.menu-footer{
-    background-color: mediumpurple;
 
 }

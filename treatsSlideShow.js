@@ -1,5 +1,5 @@
 /**
- * Created by Laura on 2015-02-02.
+ Script by hscripts.com
  */
 var slideimages=new Array()
 function slideshowimages()
