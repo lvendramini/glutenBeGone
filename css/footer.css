@@ -26,7 +26,7 @@
 
 .goldBar{
     width: 100%;
-    background-color: gold;
+    background-color: orange;
     height: 7px;
 }
 .copyright{
@@ -34,6 +34,7 @@
     height: 60px;
     background-color: beige ;
     text-align: center;
+    padding-top: 10px;
 }
 
 .containerFooter

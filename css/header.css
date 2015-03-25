@@ -19,7 +19,6 @@
 .menuItem:link, .menuItem:visited
 {
     display : block;
-
     background-color: gray;
     color: ghostwhite;
     font-size: 18;
@@ -37,6 +36,6 @@
 
 .goldBarHead{
     width: 100%;
-    background-color: gold;
+    background-color: orange;
     height: 7px;
 }

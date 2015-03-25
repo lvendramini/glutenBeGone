@@ -39,7 +39,6 @@
     position: inherit;
     width: 100%;
     overflow: hidden;
-    background-color: deeppink;
 }
 .testimonial-author
 {
@@ -51,7 +50,7 @@
 .testimonial-header
 {
     text-align: center;
-    color: red;
+    color: #ED8032;
 }
 
 .header {
