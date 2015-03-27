@@ -20,16 +20,9 @@
 
 .main-content{
     background-color: beige ;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    clear: both;
-}
-
-.main-content-about{
-    background-color: beige ;
-    padding-bottom: 50px;
-    clear: both;
     overflow: auto;
+    padding-bottom: 50px;
+    clear: both;
 }
 
 .clear { clear:both;}

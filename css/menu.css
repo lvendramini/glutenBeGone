@@ -1,4 +1,5 @@
 .menu-content {
     background-color: beige;
-
+    clear: both;
+    overflow: auto;
 }

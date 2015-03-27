@@ -3,6 +3,7 @@
     overflow: auto;
     background-color: gray;
     clear: both;
+    padding-bottom: 10px;
 }
 
 .menuBar {
