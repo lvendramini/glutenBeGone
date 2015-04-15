@@ -11,16 +11,25 @@
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container">
-    <div style="clear: both; overflow: auto">
+    <div style="clear: both; overflow: hidden">
         <div class="imgBackground"/>
         <img src="./img/GlutenBeGoneLogo.png" alt="Gluten Be Gone icon" class="imgIcon">
         <a style="position:absolute; top: 10px; right: 10px; z-index: 8; color: #ED8032" href="mailto:glutenbegone@live.ca?Subject=Enquire%20again" target="_top">Email glutenbegone@live.ca</a>
         <div style="position:absolute; top: 40px; right: 10px; z-index: 8; color:#ED8032; font-weight:bold;">416-823-5315</div>
-        <a href="https://www.facebook.com/pages/Gluten-Be-Gone/736574226419667" style="position:absolute; top: 70px; right: 10px; z-index: 8; font-weight:bold; color: #ED8032">Like us on Facebook!</a>
-        <div style="position:absolute; top: 45px; left: 260px; z-index: 8; font-family:'MarkerFelt-Thin'; font-weight:bold; font-size: xx-large; color: #ED8032">Gluten Be Gone</div>
-        <div style="position:absolute; top: 80px; left: 360px; z-index: 8; font-family:'MarkerFelt-Thin'; font-weight:bold; font-size: large; color: #ED8032">Fresh Gluten-Free Desserts and Entrees</div>
+        <div class="fb-like" data-href="https://www.facebook.com/pages/Gluten-Be-Gone/736574226419667" data-layout="button" data-action="like" data-show-faces="false" data-share="false" style="position:absolute; top: 70px; right: 10px; z-index: 8; font-weight:bold; color: #ED8032"></div>
+
+        <div style="position:absolute; top: 45px; left: 260px; z-index: 8; font-family:'MarkerFelt-Thin'; font-weight:bold; font-size: xx-large; color: #ED8032; overflow: hidden">Gluten Be Gone</div>
+        <div style="position:absolute; top: 80px; left: 360px; z-index: 8; font-family:'MarkerFelt-Thin'; font-weight:bold; font-size: large; color: #ED8032; overflow: hidden; white-space: nowrap;">Fresh Gluten-Free Desserts and Entrees</div>
     </div>
     <div class="goldBarHead"></div>
 
@@ -34,12 +43,12 @@
         <li class="linkMenuBar">
             <a class="menuItem" id="menu" href="menu.html">Menu</a>
         </li>
-        <li class="linkMenuBar">
-        <a class="menuItem" id="gallery" href="gallery.html">Gallery</a>
-        </li>
-        <li class="linkMenuBar">
-            <a class="menuItem" id="contact" href="contact.html">Contact</a>
-        </li>
+        <!--<li class="linkMenuBar">-->
+        <!--<a class="menuItem" id="gallery" href="gallery.html">Gallery</a>-->
+        <!--</li>-->
+        <!--<li class="linkMenuBar">-->
+            <!--<a class="menuItem" id="contact" href="contact.html">Contact</a>-->
+        <!--</li>-->
         <li class="linkMenuBar">
             <a class="menuItem" id="testimonials" href="testimonials.html">Testimonials</a>
         <li class="linkMenuBar">
