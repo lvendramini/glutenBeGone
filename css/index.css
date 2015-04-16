@@ -58,3 +58,9 @@ body {
     clear: both;
     position: relative;
 }
+
+.contact-head {
+    text-align: center;
+    color: #ED8032;
+    background-color: beige
+}

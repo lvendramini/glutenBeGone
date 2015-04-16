@@ -3,3 +3,9 @@
     clear: both;
     overflow: auto;
 }
+
+.menu-header-style{
+    text-align: center;
+    color: #ED8032;
+    background-color: beige;
+}
