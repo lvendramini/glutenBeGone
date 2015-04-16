@@ -21,6 +21,9 @@ body {
     align-content: center;
     text-align: center;
     width: 100%;
+    clear: both;
+    display: block;
+    overflow: hidden;
 }
 
 .main-content{
