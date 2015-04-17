@@ -16,10 +16,8 @@ body {
 }
 .gluten-img-with-text-container
 {
-    padding-left: 10%;
+    padding-left:15%;
     padding-top: 20px;
-    align-content: center;
-    text-align: center;
     width: 100%;
     clear: both;
     display: block;
