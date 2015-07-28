@@ -1,0 +1,20 @@
+.blog-main-content
+{
+    background-color: beige ;
+    overflow: auto;
+    clear: both;
+    padding-left: 20px;
+}
+.blog_content{
+    padding-left: 20px;
+}
+.date_blog{
+    color: grey;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.entry-title{
+    margin: 0;
+    padding:0;
+}
